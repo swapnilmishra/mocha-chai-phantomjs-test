@@ -1,4 +1,4 @@
-var should = chai.should(); // Note that should has to be executed
+var expect = chai.expect; // Note that should has to be executed
 
 var myLib = {
   insertElement: function(id,text){
@@ -15,8 +15,9 @@ describe('MyLib', function() {
       var text = "Hello I am Testing Mocha, Chai, PhantomJS";
           id = "mochaTest";
       myLib.insertElement(id,text);
-      // foobar.sayHello().should.equal('Hello World!');
-      $("#"+id).text().should.equal(text);
+      expect($("#"+id).text()).to.equal(text)
+      expect($("#"+id).text()).to.not.equal('')
+      // $("#"+id).text().should.equal(text);
     })
   })
 });

@@ -1,0 +1,27 @@
+{
+  "name": "mocha-chai-phantomjs-test",
+  "version": "1.0.0",
+  "description": "Basic example to show unit testing",
+  "main": "chai.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swapnilmishra/mocha-chai-phantomjs-test.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "phantomjs"
+  ],
+  "author": "Swapnil Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swapnilmishra/mocha-chai-phantomjs-test/issues"
+  },
+  "homepage": "https://github.com/swapnilmishra/mocha-chai-phantomjs-test#readme",
+  "devDependencies": {
+    "mocha-phantomjs": "^4.1.0",
+    "phantomjs": "^2.1.7"
+  }
+}
